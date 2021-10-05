@@ -29,7 +29,7 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/Laurence8866/something/main/etc/StoreFiles"
         }
     },
     "website": "https://github.com/Lbingyi/XrayHeroku",

@@ -3,6 +3,8 @@
 
 > 提醒： 滥用可能导致账户被BAN！！！ 
 
+# 9月21日修复
+
 # 首先声明一下
 
 ### 本项目为 https://github.com/Lbingyi/HerokuXray 大佬的heroku项目修改，因为有人反映同时fork二者会有冲突，我才将此重新上传改为本人的项目
@@ -12,6 +14,8 @@
 [![55Egg.png](https://i.w3tt.com/2021/09/08/55Egg.png)](https://img.tg/image/55Egg)
 
 ## 概述
+
+### 官网：railway.app
 
 用于在 railway 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
 vless 性能更加优秀，占用资源更少。
