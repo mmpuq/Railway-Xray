@@ -13,6 +13,7 @@ wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/cadd
 wget -qO- $CONFIGCADDY | sed -e "1c :$PORT" -e "s/\$AUUID/$AUUID/g" -e "s/\$MYUUID-HASH/$(caddy hash-password --plaintext $AUUID)/g" >/etc/caddy/Caddyfile
 wget -qO- $CONFIGXRAY | sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$ParameterSSENCYPT/g" >/xray.json
 chmod -R 777 /usr/share/caddy
+chmod -R 777 /etc/caddy/
 
 # storefiles
 mkdir -p /usr/share/caddy/$AUUID && wget -O /usr/share/caddy/$AUUID/StoreFiles $StoreFiles
