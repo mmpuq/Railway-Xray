@@ -28,6 +28,4 @@ tor &
 
 /xray -config /xray.json &
 
-whereis caddy
-
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
